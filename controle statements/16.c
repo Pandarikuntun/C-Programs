@@ -1,0 +1,18 @@
+#include<stdio.h>
+main(){
+	int i,total=0;
+	for(i=1;i<=10;i++){
+		switch(i){
+			case 1:
+			case 4:
+			case 5:
+			case 7:
+				total+=i;
+				break;
+			defalt:
+				continue;
+		}
+		printf("%d\n",i);
+	}
+	printf("total =%d\n",total);
+}
